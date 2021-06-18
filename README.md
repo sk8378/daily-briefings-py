@@ -50,7 +50,7 @@ SENDER_EMAIL_ADDRESS="_______________"
 Printing today's weather forecast (to test the Weather.gov API):
 
 ```sh
-python -m app.weather_service
+where heroku
 
 # in production mode:
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.weather_service
